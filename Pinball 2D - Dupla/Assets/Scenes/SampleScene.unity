@@ -2380,6 +2380,7 @@ GameObject:
   - component: {fileID: 592878370}
   - component: {fileID: 592878373}
   - component: {fileID: 592878372}
+  - component: {fileID: 592878374}
   m_Layer: 0
   m_Name: "Obst\xE1culo 3"
   m_TagString: Untagged
@@ -2515,12 +2516,30 @@ CapsuleCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.6333333, y: 1.9333333}
   m_Direction: 0
+--- !u!252 &592878374
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592878369}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: -20
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 1
+  m_UseBounce: 1
 --- !u!1 &606730849
 GameObject:
   m_ObjectHideFlags: 0
@@ -3215,7 +3234,7 @@ PointEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_ForceMagnitude: 1
+  m_ForceMagnitude: 5
   m_ForceVariation: 0
   m_DistanceScale: 1
   m_ForceSource: 0
@@ -5717,6 +5736,7 @@ GameObject:
   - component: {fileID: 1314604530}
   - component: {fileID: 1314604533}
   - component: {fileID: 1314604532}
+  - component: {fileID: 1314604534}
   m_Layer: 0
   m_Name: "Obst\xE1culo 2"
   m_TagString: Untagged
@@ -5852,12 +5872,30 @@ CapsuleCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.6333333, y: 1.9333333}
   m_Direction: 0
+--- !u!252 &1314604534
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314604529}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: -20
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 1
+  m_UseBounce: 1
 --- !u!1 &1326926871
 GameObject:
   m_ObjectHideFlags: 0
@@ -6185,6 +6223,7 @@ GameObject:
   - component: {fileID: 1423345383}
   - component: {fileID: 1423345386}
   - component: {fileID: 1423345385}
+  - component: {fileID: 1423345387}
   m_Layer: 0
   m_Name: "Obst\xE1culo 1"
   m_TagString: Untagged
@@ -6320,12 +6359,30 @@ CapsuleCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.6333333, y: 1.9333333}
   m_Direction: 0
+--- !u!252 &1423345387
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423345382}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: -20
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 1
+  m_UseBounce: 1
 --- !u!1 &1452949656
 GameObject:
   m_ObjectHideFlags: 0
@@ -6924,7 +6981,7 @@ PointEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_ForceMagnitude: 1
+  m_ForceMagnitude: 2.5
   m_ForceVariation: 0
   m_DistanceScale: 1
   m_ForceSource: 0
@@ -8731,7 +8788,7 @@ PointEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_ForceMagnitude: 1
+  m_ForceMagnitude: 10
   m_ForceVariation: 0
   m_DistanceScale: 1
   m_ForceSource: 0
